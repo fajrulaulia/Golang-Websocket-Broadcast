@@ -10,10 +10,6 @@ jobs:
 
   build:
     name: Build & test
-    runs-on: ubuntu-latest
     steps:  
-      - name: Set up Docker
-        uses: docker/build-action@v1
-
       - name: Build & test
         run: make build-test  
