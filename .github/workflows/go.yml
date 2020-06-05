@@ -1,0 +1,17 @@
+name: Go
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+    name: Build & test
+    runs-on: ubuntu-latest
+    steps:  
+
+    - name: Build & test
+      run: make build-test  
