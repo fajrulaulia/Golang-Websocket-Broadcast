@@ -1,4 +1,4 @@
-# Peuthe Socker
+# Peuthe Socket
 Peuthe Socket is a Websocket written by golang
 
 ## How it work??
