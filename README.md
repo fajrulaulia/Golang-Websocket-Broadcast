@@ -1,5 +1,6 @@
 # Peuthe Socket
-Peuthe Socket is a Websocket written by golang
+Peuthe(in acheh language is same with neuputhe, ex : "Neu puthe sigam nyan bek lhe tat peugah broh putoh" is meaning "Tell someone"), Peuthe Socket is a Websocket written by golang
+This socket will "tell" all client connected with Peuthe if handler triggered by another user.
 
 ## How it work??
 When you send payload, peuthe socket will send for all client who connected with peuthe socket.
